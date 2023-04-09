@@ -1,0 +1,53 @@
+body {
+  font: 20px sans-serif;
+  color: hsl(200, 30%, 30%);
+  background: hsl(50, 10%, 95%);
+}
+
+header,
+main,
+article,
+section,
+ul {
+  display: grid;
+  justify-items: center;
+}
+
+figure {
+  float: right;
+  width: 15%;
+  border: thin silver solid;
+  padding: 0.5em;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  height: auto;
+  word-wrap: break-word;
+}
+
+p,
+li {
+  word-spacing: 0.1rem;
+  line-height: 1.8rem;
+  width: clamp(45ch, 50%, 75ch);
+}
+
+p {
+  text-indent: 2rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: hsl(340, 70%, 60%);
+  text-decoration: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gradient</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        background: repeating-linear-gradient(
+          to top left,
+          lightpink,
+          lightpink 5px,
+          white 5px,
+          white 10px
+        );
+      }
+      p {
+        color: black;
+        font-size: 50px;
+        background: linear-gradient(90deg, white, lightpink);
+      }
+      div {
+        width: 250px;
+        height: 300px;
+        background-color: #ccc;
+        margin: 20px;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Gradient</p>
+
+    <div>
+      <div style="background: linear-gradient(45deg, pink, white"/></div>
+    </div>
+
+    <div>
+      <div style="background: radial-gradient(#3889dd, white)"></div>
+    </div>
+
+    <div>
+      <div style="background: conic-gradient(#a979e6, white)"></div>
+    </div>
+
+    <div>
+      <div
+        style="background: repeating-linear-gradient(#3889dd 10px, white 40px)"
+      ></div>
+    </div>
+
+    <div>
+      <div
+        style="background: repeating-conic-gradient(white, #a979e6 20deg)"
+      ></div>
+    </div>
+
+    <div>
+      <div
+        style="
+          background: conic-gradient(
+            pink 25%,
+            white 0deg 50%,
+            pink 0deg 75%,
+            white 0deg
+          );
+        "
+      ></div>
+    </div>
+  </body>
+</html>

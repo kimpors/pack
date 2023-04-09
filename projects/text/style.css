@@ -1,0 +1,38 @@
+body {
+  background: #e6e8e6;
+  color: #080708;
+  font-size: 32px;
+}
+
+.colorize {
+  color: #3772ff;
+}
+
+.shadow {
+  text-shadow: 4px 4px 2px #fdca40;
+}
+
+.font-ex1 {
+  font-family: Audiowide;
+  text-decoration: underline;
+}
+
+.font-ex2 {
+  font-family: "Tilt Prism";
+  text-decoration: underline dotted;
+}
+
+.font-ex3 {
+  font-family: "Gajraj One";
+  text-decoration: underline dotted #df2935;
+}
+
+.font-ex4 {
+  font-family: "Noto Sans Bamum";
+  text-decoration: underline wavy pink;
+}
+
+.font-ex5 {
+  font-family: "Smokum";
+  text-decoration: underline overline brown;
+}

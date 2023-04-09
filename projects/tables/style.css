@@ -1,0 +1,102 @@
+:root {
+  --primary-color: #070709;
+  --secondary-color: #9d0208;
+  --acsent-color: white;
+}
+
+body {
+  display: block;
+  font-size: 24px;
+  font-family: "Advent Pro";
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+h1,
+h2 {
+  cursor: default;
+}
+
+header {
+  text-align: center;
+}
+
+header a {
+  font-size: 1.2rem;
+}
+
+header::after {
+  content: "";
+  display: block;
+  width: 30rem;
+  margin-inline: auto;
+  background-color: var(--acsent-color);
+  border-radius: 50%;
+  height: 0.1em;
+}
+
+footer::before {
+  content: "";
+  display: block;
+  background-color: var(--acsent-color);
+  border-radius: 60%;
+  height: 0.1rem;
+}
+
+table {
+  font-size: 1.5rem;
+  width: 30%;
+  aspect-ratio: 3/4;
+  border-collapse: collapse;
+  margin-inline: auto;
+  margin-block: 10rem;
+  border-radius: 5% 5% 0 0;
+  transition: transform 300ms, background-color 300ms;
+}
+
+table:hover {
+  background-color: var(--acsent-color);
+  color: var(--primary-color);
+  transform: translateY(-1rem);
+}
+
+table:hover > caption {
+  color: var(--acsent-color);
+}
+
+table:hover > tbody tr td a {
+  color: var(--secondary-color);
+}
+
+td {
+  text-align: center;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: solid var(--acsent-color) 0.1rem;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  color: var(--acsent-color);
+  margin-inline: 0.5rem;
+  padding-inline: 0.3rem;
+  border-radius: 3%;
+  transition: color 150ms, background-color 150ms;
+}
+
+a:hover {
+  color: var(--primary-color);
+  background-color: var(--acsent-color);
+}
+
+img {
+  width: 25rem;
+  border-radius: 5%;
+  box-shadow: 0 0 1.2rem 0.2rem var(--acsent-color);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

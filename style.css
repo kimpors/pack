@@ -1,0 +1,113 @@
+html,
+body,
+main {
+  height: 100%;
+  font-size: 24px;
+  place-items: center;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: fit-content;
+  height: 4rem;
+  margin: 2rem;
+  border: none;
+
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: width 50ms, height 50ms;
+}
+
+button:hover {
+  cursor: pointer;
+  height: 8rem;
+  width: 8rem;
+}
+
+.btn1 {
+  color: #080708;
+  background-color: #e6e8e6;
+  border-radius: 5%;
+  box-shadow: 0.3rem 0.3rem 0.1rem #fdca40;
+
+  font-family: "Gajraj One";
+  text-decoration: underline dotted #df2935;
+}
+
+.btn1:active {
+  transform: translate(0.3rem, 0.3rem);
+  box-shadow: none;
+}
+
+.btn2 {
+  color: black;
+  background: repeating-linear-gradient(
+    to top left,
+    lightpink,
+    lightpink 5px,
+    white 5px,
+    white 10px
+  );
+  box-shadow: -0.4rem -0.4rem 0 #ccc;
+}
+
+.btn2:active {
+  box-shadow: none;
+  transform: translate(-0.5rem, -0.5rem);
+}
+
+.btn3 {
+  width: 4rem;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20%;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%),
+    url("projects/image/img/stairs.webp");
+  background-size: cover;
+}
+
+.btn4 {
+  color: #9db4c0;
+  background-color: #253237;
+  border-radius: 24%;
+  box-shadow: 0.3rem 0.2rem black;
+}
+.btn4:hover {
+  color: #c2dfe3;
+}
+.btn4:active {
+  transform: translate(0.3rem, 0.3rem);
+  box-shadow: none;
+}
+
+.btn5 {
+  color: #9d0208;
+  background-color: #070709;
+  font-weight: bold;
+  font-family: "Advent Pro";
+}
+
+.btn5:hover {
+  text-decoration: white underline;
+}
+
+.btn6 {
+  color: hsl(200, 30%, 30%);
+  background-color: hsl(50, 10%, 95%);
+  width: fit-content;
+  font-weight: bold;
+  font-style: sans-serif;
+}

@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%),
+    url("img/stairs.webp");
+  background-size: cover;
+}
+
+p {
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  font-size: 20px;
+  color: darkblue;
+  background-image: url("img/read.gif");
+  background-size: cover;
+}
+
+.bgimg {
+  width: 700px;
+  height: 500px;
+  background-color: #4b4ba3;
+  background-image: url("img/astronaut.jpg");
+  background-size: cover;
+  border-radius: 20% 70%;
+  border: ridge 10px #b55658;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 10%;
+  box-shadow: 20px 20px 50px darkblue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gif {
+  width: 100%;
+  height: 300px;
+  display: block;
+  margin-top: 50px;
+  background-image: linear-gradient(
+      rgba(255, 0, 0, 0.5),
+      rgba(0, 255, 0, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ),
+    url("img/mind-control.gif");
+  background-position: 50% 50%;
+}
